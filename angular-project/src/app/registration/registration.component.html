@@ -1,0 +1,35 @@
+<div align="center">
+    <h2>User Registration</h2>
+    <table>
+        <tr>
+            <th>First Name:</th>
+            <td><input type="text" name="firstName" [(ngModel)] = 'firstName'></td>
+        </tr>
+        <tr>
+            <th>Last Name:</th>
+            <td><input type="text" name="lastName" [(ngModel)] = 'lastName'></td>
+        </tr>
+        <tr>
+            <th>Login ID:</th>
+            <td><input type="text" name="loginId" [(ngModel)] = 'loginId'></td>
+        </tr>
+        <tr>
+            <th>Password:</th>
+            <td><input type="text" name="password" [(ngModel)] = 'password'></td>
+        </tr>
+        <tr>
+            <th>DOB:</th>
+            <td><input type="date" name="dob" style="width:98%" [(ngModel)] = 'dob'></td>
+        </tr>
+        <tr>
+            <th>Address:</th>
+            <td><input type="text" name="address" [(ngModel)] = 'address'></td>
+        </tr>
+        <tr>
+            <th></th>
+            <td>
+                <button (click)='signup()'>signUp</button>
+            </td>
+        </tr>
+    </table>
+</div>
